@@ -1,0 +1,118 @@
+body {
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+	background-image:url(../images/backgroundbanner1.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:32% 2%;
+/* background-position:100% 50%; is if you want to move the background image aroudn*/
+/* background size: cover; is if you want the image to cover the backdrop*/	
+}
+.main{
+    width: 800px;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 5px;
+	/*x-position, y-position, blur, size */
+	box-shadow: 2px 2px 2px gray;
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+h1 {
+	/* to add a font from Google Fonts >> font-family: 'Bad Script', cursive;*/
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-weight: none;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing:5px;
+	font-weight: normal;
+}
+
+h3 { 
+	margin-bottom: 0; 
+    text-align: center;
+    cursor: pointer;
+}
+h3:hover {
+	text-decoration: underline;
+	color: #454545;
+}
+
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+p {
+    text-align: center;
+
+}
+
+
+.homepage1image {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px dotted gray;
+
+/* margin:0 auto; is a quick way of centering the image*/	
+
+}
+
+img {
+	transition: transform 200ms;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
+
+
+p, 
+ul
+ol {
+	text-align: center;
+	line-height:1.6;
+	list-style: none;
+	padding-left:0;
+}
+.js p,
+.js ul, 
+.js ol {
+    display: none;
+}
+
+a {
+	color: #666968;
+	font-weight: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover {
+       text-decoration: underline;
+	   color: #070808;
+	   text-align: center;
+}
+
+/* moblie*/
+@media screen and (max-width 767px){
+
+}
+
+/* tablet */
+
+@media screen and (min-width: 768-x){
+} 
+
+/* desktop */
+@media screen and (min-width:1025px){
+
+}
